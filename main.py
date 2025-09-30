@@ -41,13 +41,13 @@ def main():
         try:
             user_input = input("\nVos: ").strip()
         except (KeyboardInterrupt, EOFError):
-            print("\nSaliendo...🦖🦖 ")
+            print("\nSaliendo... ")
             break
         if not user_input:
             continue
 
         if user_input.lower() in (":exit", "salir"):
-            print("Saliendo...🦖🦖 ")
+            print("Saliendo... ")
             break
         if user_input.lower() in (":reset", "reset"):
             print("Conversacion reiniciada.")
