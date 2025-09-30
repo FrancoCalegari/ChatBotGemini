@@ -29,7 +29,7 @@ pip install -r requirements.txt
 2. Ejecuta el bot:
 
 ```bash
-python bot.py
+python main.py
 ```
 
 ## Configuración
